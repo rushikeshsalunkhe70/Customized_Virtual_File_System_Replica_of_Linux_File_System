@@ -148,7 +148,7 @@ struct UAREA {
 ### File Creation Flow
 
 ```mermaid
-graph TD
+  graph TD
     A[CreateFile Call] --> B[Validate Parameters]
     B --> C[Check Available Inodes]
     C --> D[Check File Existence]
